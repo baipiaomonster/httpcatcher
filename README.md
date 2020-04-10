@@ -2,5 +2,5 @@
 > Provide for learning use  
 > by:A+  
 
-Add methods
-![alt ]()
+Add methods  
+![alt ](https://raw.githubusercontent.com/pm936/http/master/Addmethods.jpg)
