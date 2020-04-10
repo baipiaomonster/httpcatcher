@@ -1,0 +1,40 @@
+{
+	"rules": [{
+		"action": "body",
+		"matchField": "",
+		"field": "",
+		"value": "total\":9999",
+		"matchValue": "total\":\\d+",
+		"destiontion": "response",
+		"isRegex": true
+	}, {
+		"action": "body",
+		"matchField": "",
+		"field": "",
+		"value": "remaining\":9999",
+		"matchValue": "remaining\":\\d+",
+		"destiontion": "response",
+		"isRegex": true
+	}],
+	"enabled": true,
+	"isReadOnly": false,
+	"name": "左手视频解锁限制 A+",
+	"locations": [{
+		"method": "GET",
+		"scheme": "https",
+		"enabled": true,
+		"port": 443,
+		"query": "",
+		"host": "www.zuo9.live",
+		"path": "\/api\/app\/user\/store"
+	}, {
+		"method": "GET",
+		"scheme": "https",
+		"enabled": true,
+		"port": 443,
+		"query": "",
+		"host": "www.zuo9.live",
+		"path": "\/api\/app\/video\/store"
+	}],
+	"description": "A+\n网页地址，https:\/\/www.zuo9.live\/"
+}
