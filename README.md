@@ -3,4 +3,4 @@
 > by:A+  
 
 Add methods  
-![alt ](https://raw.githubusercontent.com/pm936/http/master/Addmethods.jpg)
+![alt ](https://github.com/pm936/http/blob/master/Addmethods.jpg)
