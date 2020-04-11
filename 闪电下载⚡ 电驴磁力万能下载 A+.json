@@ -1,0 +1,28 @@
+{
+  "rules" : [
+    {
+      "action" : "body",
+      "matchField" : "",
+      "field" : "",
+      "value" : "isvip\":true",
+      "matchValue" : "isvip\":\\w+",
+      "destiontion" : "response",
+      "isRegex" : true
+    }
+  ],
+  "enabled" : false,
+  "isReadOnly" : false,
+  "name" : "闪电下载⚡ 电驴磁力万能下载 A+",
+  "locations" : [
+    {
+      "method" : "GET",
+      "scheme" : "http",
+      "enabled" : true,
+      "port" : 80,
+      "query" : "",
+      "host" : "app.flashdown365.com",
+      "path" : "\/ios\/login"
+    }
+  ],
+  "description" : "下载地址，\nhttps:\/\/apk.flashdown365.com\/ipa\/flash.html"
+}
